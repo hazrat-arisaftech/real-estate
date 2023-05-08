@@ -1,7 +1,14 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Home = () => {
-  return <div>home</div>;
+  return (
+    <>
+      <h1>Hello </h1>
+      <Link to="..">
+        <p>link</p>
+      </Link>
+    </>
+  );
 };
 
 export default Home;
